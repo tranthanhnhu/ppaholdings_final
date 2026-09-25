@@ -3,6 +3,7 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { notFound } from "next/navigation";
 import { Plus_Jakarta_Sans, Noto_Sans_SC, Noto_Sans_Lao, Cormorant_Garamond } from "next/font/google";
 import { routing } from "@/i18n/routing";
+import { BackToTop } from "@/components/UI/BackToTop";
 import "../globals.css";
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -78,6 +79,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       >
         <NextIntlClientProvider messages={messages}>
           {children}
+          <BackToTop />
         </NextIntlClientProvider>
       </body>
     </html>

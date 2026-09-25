@@ -25,13 +25,13 @@ export function LanguageSwitcher({ tone = "dark" }: LanguageSwitcherProps) {
       : "text-paa-muted hover:text-paa-text";
 
   return (
-    <div className="flex items-center gap-3" role="navigation" aria-label="Language">
+    <div className="flex items-center gap-4" role="navigation" aria-label="Language">
       {routing.locales.map((code) => (
         <Link
           key={code}
           href={pathname}
           locale={code}
-          className={`font-medium text-[11px] leading-[14px] tracking-[1.4px] transition-colors ${
+          className={`font-medium text-[13px] leading-[18px] tracking-[1.2px] transition-colors ${
             code === locale ? "text-paa-accent" : idle
           }`}
           aria-current={code === locale ? "true" : undefined}
