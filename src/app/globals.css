@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paa-color-bg: #f7f6f2;
+  --paa-color-text: #000000;
+  --paa-color-text-muted: #707377;
+  --paa-color-text-inverse: #ffffff;
+  --paa-color-accent: #c2995b;
+  --paa-color-gold: #c2995b;
+  --paa-color-ink: #091725;
+  --paa-color-navy: #091725;
+  --paa-space-12: 12px;
+  --paa-space-16: 16px;
+  --paa-space-24: 24px;
+  --paa-space-32: 32px;
+  --paa-space-48: 48px;
+  --paa-space-60: 60px;
+  --paa-space-64: 64px;
+  --paa-space-80: 80px;
+  --paa-space-160: 160px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paa-bg: var(--paa-color-bg);
+  --color-paa-text: var(--paa-color-text);
+  --color-paa-muted: var(--paa-color-text-muted);
+  --color-paa-inverse: var(--paa-color-text-inverse);
+  --color-paa-accent: var(--paa-color-accent);
+  --color-paa-ink: var(--paa-color-ink);
+  --font-sans: var(--font-plus-jakarta);
+  --font-serif: var(--font-cormorant);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paa-color-bg);
+  color: var(--paa-color-text);
+  font-family: var(--font-plus-jakarta), "Noto Sans", "Noto Sans Lao",
+    "Noto Sans SC", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--paa-color-accent) 35%, transparent);
 }
