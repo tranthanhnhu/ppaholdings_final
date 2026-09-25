@@ -1,8 +1,8 @@
-# PAA ANOLI — Homepage
+# PAA ANOLI
 
-Next.js 15 + TypeScript + Tailwind CSS + next-intl implementation of Figma **Homepage 2** (`PAA_ANOLI`).
+Next.js 15 + TypeScript + Tailwind CSS + next-intl (vi / en / lo / zh).
 
-## Run
+## Dev
 
 ```bash
 npm install
@@ -11,19 +11,55 @@ npm run dev
 
 Open [http://localhost:3000/vi](http://localhost:3000/vi)
 
-Locales: `/vi` · `/en` · `/lo` · `/zh`
+## Static export (Hostinger)
 
-## Figma source
+`out/` được tạo bằng Next.js static export (`output: "export"`), không dùng `next export` riêng.
 
-https://www.figma.com/design/te7TPXOOCdfxoWzNchx9XJ/PAA_ANOLI?node-id=164-1773
+### Cách xuất
+
+Trong `next.config.mjs`:
+
+```js
+output: "export",
+trailingSlash: true,
+images: {
+  unoptimized: true,
+},
+```
+
+Chạy:
+
+```bash
+npm run build
+```
+
+(`export` trong `package.json` cũng chỉ gọi `next build`.) Build xong HTML/CSS/JS nằm ở `out/`.
+
+### Cách đẩy lên hosting
+
+Có 2 mức:
+
+1. **Chỉ build:** `npm run build` → xem `out/`
+2. **Build + sync:** `npm run deploy:static` → chạy `scripts/deploy-static.sh`:
+   - `npm run build`
+   - rsync `out/` sang repo hosting tại `STATIC_DEPLOY_DIR` (trong `.env.local`)
+   - giữ nguyên `.git` của repo hosting (không bỏ `.git` vào `out/`)
+   - commit/push thủ công trong repo hosting
+
+Setup sync:
+
+```bash
+cp .env.local.example .env.local
+# sửa STATIC_DEPLOY_DIR=/absolute/path/to/hosting-repo
+npm run deploy:static
+```
+
+## Locales
+
+`/vi/` · `/en/` · `/lo/` · `/zh/` (`trailingSlash: true`)
 
 ## Structure
 
-- `messages/` — vi / en / lo / zh copy from Homepage 2
-- `public/images/homepage/` — assets downloaded from Figma
-- `src/components/Homepage/` — page sections
-- Breakpoint: mobile Figma 375 (`< lg`) · desktop Figma 1440 (`lg+`)
-
-## Fonts
-
-Plus Jakarta Sans (primary). Noto Sans SC / Noto Sans Lao loaded for `zh` / `lo`.
+- `messages/` — copy đa ngôn ngữ
+- `public/images/` — assets Figma
+- `src/components/` — Homepage, WhoWeAre, Investment, Business, Sector, PaaAgro, Contact

@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/postbuild-static.mjs",
+    "export": "npm run build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy:static": "bash scripts/deploy-static.sh"
   },
   "dependencies": {
     "next": "15.5.26",
