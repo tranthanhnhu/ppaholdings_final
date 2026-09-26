@@ -203,10 +203,27 @@
     ]
   },
   "footer": {
+    "brand": "PAA Empire Holdings",
+    "tagline": "ສຳນັກງານໃຫຍ່ຢູ່ວຽງຈັນ, ສປປ ລາວ.",
+    "exploreLabel": "ສຳຫຼວດ",
+    "sectorsLabel": "ຂະແໜງການ",
     "hqLabel": "ສຳນັກງານໃຫຍ່",
-    "hqName": "PAA Empire Holdings",
-    "hqPlace": "ວຽງຈັນ, ສປປ ລາວ",
-    "copyright": "© PAA Empire Holdings"
+    "hqLines": [
+      "PAA Empire Holdings",
+      "Lane Xang Avenue, Unit 12",
+      "ວຽງຈັນ, ສປປ ລາວ"
+    ],
+    "phone": "+856 21 254 180",
+    "email": "contact@paa.holdings",
+    "copyright": "© PAA Empire Holdings",
+    "location": "ວຽງຈັນ - ສປປ ລາວ",
+    "sectors": {
+      "agriculture": "ກະສິກໍາ",
+      "food": "ການປຸງແຕ່ງ ແລະ ຜະລິດອາຫານ",
+      "materials": "ວັດຖຸດິບທຳມະຊາດ",
+      "trading": "ການຄ້າ ແລະນຳເຂົ້າສົ່ງອອກ",
+      "realEstate": "ອະສັງຫາລິມະຊັບ"
+    }
   },
   "whoWeAre": {
     "hero": {

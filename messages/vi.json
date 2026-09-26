@@ -203,10 +203,27 @@
     ]
   },
   "footer": {
-    "hqLabel": "TRỤ SỞ CHÍNH",
-    "hqName": "PAA Empire Holdings",
-    "hqPlace": "Viêng Chăn, CHDCND Lào",
-    "copyright": "© PAA Empire Holdings"
+    "brand": "PAA Empire Holdings",
+    "tagline": "Đặt trụ sở chính tại Viêng Chăn, CHDCND Lào.",
+    "exploreLabel": "KHÁM PHÁ",
+    "sectorsLabel": "LĨNH VỰC",
+    "hqLabel": "TRỤ SỞ",
+    "hqLines": [
+      "PAA Empire Holdings",
+      "Lane Xang Avenue, Unit 12",
+      "Viêng Chăn, CHDCND Lào"
+    ],
+    "phone": "+856 21 254 180",
+    "email": "contact@paa.holdings",
+    "copyright": "© PAA Empire Holdings",
+    "location": "Viêng Chăn - CHDCND Lào",
+    "sectors": {
+      "agriculture": "Nông nghiệp",
+      "food": "Chế biến & Sản xuất",
+      "materials": "Nguyên vật liệu",
+      "trading": "Thương mại, Xuất nhập khẩu",
+      "realEstate": "Bất động sản"
+    }
   },
   "whoWeAre": {
     "hero": {

@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# Hostinger static repo (separate .git; populated by npm run deploy:static)
+/out_hostinger/
+
 # production
 /build
 

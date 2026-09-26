@@ -203,10 +203,27 @@
     ]
   },
   "footer": {
+    "brand": "PAA Empire Holdings",
+    "tagline": "总部位于老挝人民民主共和国万象。",
+    "exploreLabel": "探索",
+    "sectorsLabel": "业务领域",
     "hqLabel": "总部",
-    "hqName": "PAA Empire Holdings",
-    "hqPlace": "老挝人民民主共和国万象",
-    "copyright": "© PAA Empire Holdings"
+    "hqLines": [
+      "PAA Empire Holdings",
+      "Lane Xang Avenue, Unit 12",
+      "老挝人民民主共和国万象"
+    ],
+    "phone": "+856 21 254 180",
+    "email": "contact@paa.holdings",
+    "copyright": "© PAA Empire Holdings",
+    "location": "万象 - 老挝人民民主共和国",
+    "sectors": {
+      "agriculture": "农业",
+      "food": "食品加工与制造",
+      "materials": "天然材料",
+      "trading": "贸易与进出口",
+      "realEstate": "房地产"
+    }
   },
   "whoWeAre": {
     "hero": {

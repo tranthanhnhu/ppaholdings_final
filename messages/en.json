@@ -203,10 +203,27 @@
     ]
   },
   "footer": {
+    "brand": "PAA Empire Holdings",
+    "tagline": "Headquartered in Vientiane, Lao PDR.",
+    "exploreLabel": "EXPLORE",
+    "sectorsLabel": "SECTORS",
     "hqLabel": "HEADQUARTERS",
-    "hqName": "PAA Empire Holdings",
-    "hqPlace": "Vientiane, Lao PDR",
-    "copyright": "© PAA Empire Holdings"
+    "hqLines": [
+      "PAA Empire Holdings",
+      "Lane Xang Avenue, Unit 12",
+      "Vientiane, Lao PDR"
+    ],
+    "phone": "+856 21 254 180",
+    "email": "contact@paa.holdings",
+    "copyright": "© PAA Empire Holdings",
+    "location": "Vientiane - Lao PDR",
+    "sectors": {
+      "agriculture": "Agriculture",
+      "food": "Food Processing & Manufacturing",
+      "materials": "Natural Materials",
+      "trading": "Trading & Import-Export",
+      "realEstate": "Real Estate"
+    }
   },
   "whoWeAre": {
     "hero": {
