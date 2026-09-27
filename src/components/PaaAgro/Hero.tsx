@@ -17,7 +17,7 @@ export async function PaaAgroHero() {
       />
       <div className="absolute inset-0 bg-paa-ink/55" />
       <div className="relative z-10 flex min-h-[640px] flex-col lg:min-h-[860px]">
-        <Header logoSize={50} />
+        <Header />
         <div className="mt-auto flex max-w-[760px] flex-col gap-4 px-8 pb-12 pt-10 text-paa-inverse lg:px-24 xl:px-[120px] lg:pb-12">
           <p className="text-[11px] font-medium tracking-[1.4px] text-paa-accent whitespace-pre">
             {t("eyebrow")}

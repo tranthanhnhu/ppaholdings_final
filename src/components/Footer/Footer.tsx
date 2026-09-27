@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/UI/Logo";
+import { LanguageSwitcher } from "@/components/UI/LanguageSwitcher";
 import { SECTOR_SLUGS, sectorMeta } from "@/lib/sectors";
 import type { ReactNode } from "react";
 
@@ -91,13 +92,16 @@ export async function Footer() {
         </div>
       </div>
 
-      <div className="mt-12 flex flex-col gap-3 border-t border-paa-inverse/10 pt-6 lg:mt-16 lg:flex-row lg:items-center lg:justify-between">
+      <div className="mt-12 flex flex-col gap-4 border-t border-paa-inverse/10 pt-6 lg:mt-16 lg:flex-row lg:items-center lg:justify-between">
         <p className="text-[13px] leading-5 text-paa-inverse/50">
           {t("copyright")}
         </p>
-        <p className="text-[13px] leading-5 text-paa-inverse/50">
-          {t("location")}
-        </p>
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
+          <p className="text-[13px] leading-5 text-paa-inverse/50">
+            {t("location")}
+          </p>
+          <LanguageSwitcher tone="light" />
+        </div>
       </div>
     </footer>
   );

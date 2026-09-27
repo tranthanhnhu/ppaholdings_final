@@ -153,8 +153,14 @@
     "headline1": "Rooted in Southeast Asia.",
     "headline2": "Oriented to global markets.",
     "lead": "Starting in Southeast Asia, PAA unlocks regional potential in resources, people, and production capacity to connect with broader markets.",
-    "pinCity": "VIENTIANE",
-    "pinLabel": "HEADQUARTERS"
+    "caption": "Connecting countries across the region, and reaching larger markets beyond.",
+    "regions": {
+      "center": "Laos",
+      "north": "Myanmar",
+      "east": "Vietnam",
+      "south": "Cambodia",
+      "west": "Thailand"
+    }
   },
   "responsible": {
     "eyebrow": "SUSTAINABLE GROWTH",
@@ -306,7 +312,7 @@
         },
         {
           "title": "Growth and consolidation",
-          "body": ""
+          "body": "Strengthening operating capability and expanding the business foundation across the PAA ecosystem."
         },
         {
           "title": "Circular agriculture",
@@ -1288,6 +1294,7 @@
             "PAA Agro",
             "Bolaven Cassava"
           ],
+          "note": "PAA Agro’s position",
           "current": true
         },
         {
@@ -1317,7 +1324,7 @@
           "index": "05",
           "title": "MARKET",
           "companies": [
-            "—"
+            "Broader markets beyond"
           ]
         }
       ]

@@ -18,7 +18,7 @@ export function Logo({ variant = "white", size = 40, className = "" }: LogoProps
       alt="PAA Empire Holdings"
       width={size}
       height={size}
-      className={className}
+      className={`object-contain ${className}`}
       priority
     />
   );

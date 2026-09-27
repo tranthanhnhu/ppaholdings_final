@@ -23,7 +23,7 @@ export async function SectorHero({ slug }: Props) {
       />
       <div className="absolute inset-0 bg-paa-ink/55" />
       <div className="relative z-10 flex min-h-[560px] flex-col lg:min-h-[760px]">
-        <Header logoSize={40} />
+        <Header />
         {/* Raised so title is visible on first viewport */}
         <div className="mt-[18%] flex max-w-[900px] flex-col gap-4 px-8 pb-12 text-paa-inverse lg:mt-[16%] lg:gap-5 lg:px-24 lg:pb-16 xl:px-[120px]">
           <p className="text-[11px] font-medium leading-[14px] tracking-[1.4px] text-paa-accent whitespace-pre">

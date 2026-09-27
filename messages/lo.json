@@ -153,8 +153,14 @@
     "headline1": "ຜູກພັນກັບອາຊີຕາເວັນອອກສຽງໃຕ້.",
     "headline2": "ມຸ່ງສູ່ຕະຫຼາດໂລກ.",
     "lead": "ເລີ່ມຕົ້ນຈາກອາຊີຕາເວັນອອກສຽງໃຕ້, PAA ນຳໃຊ້ທ່າແຮງຂອງຊັບພະຍາກອນ, ຄົນ ແລະ ພະລັງການຜະລິດຂອງພາກພື້ນ ເພື່ອເຊື່ອມຕໍ່ກັບຕະຫຼາດທີ່ກວ້າງຂວາງກວ່າ.",
-    "pinCity": "ວຽງຈັນ",
-    "pinLabel": "ສຳນັກງານໃຫຍ່"
+    "caption": "ເຊື່ອມຕໍ່ປະເທດໃນພາກພື້ນ, ມຸ່ງໄປສູ່ຕະຫຼາດທີ່ກວ້າງກວ່າ.",
+    "regions": {
+      "center": "ລາວ",
+      "north": "ມຽນມາ",
+      "east": "ຫວຽດນາມ",
+      "south": "ກຳປູເຈຍ",
+      "west": "ໄທ"
+    }
   },
   "responsible": {
     "eyebrow": "ການພັດທະນາແບບຍືນຍົງ",
@@ -306,7 +312,7 @@
         },
         {
           "title": "ໄລຍະເຕີບໂຕ ແລະ ເສີມສ້າງ",
-          "body": ""
+          "body": "ເສີມສ້າງຄວາມສາມາດດ້ານການດຳເນີນງານ ແລະ ຂະຫຍາຍພື້ນຖານທຸລະກິດໃນລະບົບນິເວດ PAA."
         },
         {
           "title": "ກະສິກໍາແບບວົງຈອນ",
@@ -550,46 +556,46 @@
       "scroll": "SCROLL"
     },
     "method": {
-      "eyebrow": "HOW WE BUILD THE PORTFOLIO",
-      "line1": "We build, acquire,",
-      "line2": "partner, and invest.",
-      "lead": "There is no single path for a business to join the PAA ecosystem. We choose the form that fits based on potential, role in the value chain, and ability to create long-term value.",
+      "eyebrow": "ວິທີທີ່ພວກເຮົາສ້າງພໍດ໌ໂຟລິໂອ",
+      "line1": "ພວກເຮົາສ້າງ, ຊື້,",
+      "line2": "ຮ່ວມມື ແລະ ລົງທຶນ.",
+      "lead": "ບໍ່ມີເສັ້ນທາງດຽວສຳລັບທຸລະກິດທີ່ຈະເຂົ້າສູ່ລະບົບນິເວດ PAA. ພວກເຮົາເລືອກຮູບແບບທີ່ເໝາະສົມໂດຍອີງໃສ່ທ່າແຮງ, ບົດບາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ ແລະ ຄວາມສາມາດໃນການສ້າງມູນຄ່າໄລຍະຍາວ.",
       "items": [
         {
           "index": "01",
-          "title": "BUILD",
+          "title": "ສ້າງ",
           "english": "Build",
-          "body": "Develop businesses from opportunities and resources PAA understands deeply."
+          "body": "ພັດທະນາທຸລະກິດຈາກໂອກາດ ແລະ ຊັບພະຍາກອນທີ່ PAA ເຂົ້າໃຈຢ່າງເລິກເຊິ່ງ."
         },
         {
           "index": "02",
-          "title": "ACQUIRE",
+          "title": "ຊື້",
           "english": "Acquire",
-          "body": "Acquire or take controlling stakes in businesses with the right foundation to expand and grow."
+          "body": "ຊື້ ຫຼື ຖືຫຸ້ນຄວບຄຸມໃນທຸລະກິດທີ່ມີພື້ນຖານເໝາະສົມເພື່ອຂະຫຍາຍ ແລະ ເຕີບໂຕ."
         },
         {
           "index": "03",
-          "title": "PARTNER",
+          "title": "ຮ່ວມມື",
           "english": "Partner",
-          "body": "Work with partners who bring technology, resources, markets, or capabilities that strengthen the ecosystem."
+          "body": "ຮ່ວມມືກັບຄູ່ຮ່ວມທີ່ນຳເອົາເທັກໂນໂລຢີ, ຊັບພະຍາກອນ, ຕະຫຼາດ ຫຼື ຄວາມສາມາດມາເສີມລະບົບນິເວດ."
         },
         {
           "index": "04",
-          "title": "INVEST",
+          "title": "ລົງທຶນ",
           "english": "Invest",
-          "body": "Invest in businesses with long-term potential that fit PAA's strategic sectors."
+          "body": "ລົງທຶນໃນທຸລະກິດທີ່ມີທ່າແຮງໄລຍະຍາວ ແລະ ສອດຄ່ອງກັບຂະແໜງຍຸດທະສາດຂອງ PAA."
         }
       ]
     },
     "valueChain": {
-      "eyebrow": "PAA ECOSYSTEM",
-      "line1": "Independent businesses.",
-      "line2": "One connected value chain.",
-      "lead": "PAA's portfolio is not built as isolated investments. We seek links between resources, production, processing, and markets so businesses can reinforce each other and create more value together.",
+      "eyebrow": "ລະບົບນິເວດ PAA",
+      "line1": "ທຸລະກິດເອກະລາດ.",
+      "line2": "ລະບົບຕ່ອງໂສ້ມູນຄ່າທີ່ເຊື່ອມໂຍງກັນ.",
+      "lead": "ພໍດ໌ໂຟລິໂອຂອງ PAA ບໍ່ໄດ້ຖືກສ້າງເປັນການລົງທຶນແຍກກັນ. ພວກເຮົາຊອກຫາຄວາມເຊື່ອມໂຍງລະຫວ່າງຊັບພະຍາກອນ, ການຜະລິດ, ການປຸງແຕ່ງ ແລະ ຕະຫຼາດ ເພື່ອໃຫ້ທຸລະກິດເສີມກັນ ແລະ ສ້າງມູນຄ່າເພີ່ມໃຫ້ກັນ.",
       "stages": [
         {
           "index": "01",
-          "title": "AGRICULTURE",
+          "title": "ກະສິກໍາ",
           "companies": [
             "PAA Agro",
             "Bolaven Cassava"
@@ -597,7 +603,7 @@
         },
         {
           "index": "02",
-          "title": "MATERIALS",
+          "title": "ວັດຖຸດິບ",
           "companies": [
             "Mekong Latex",
             "Annam Timber"
@@ -605,7 +611,7 @@
         },
         {
           "index": "03",
-          "title": "PROCESSING & MANUFACTURING",
+          "title": "ປຸງແຕ່ງ & ຜະລິດ",
           "companies": [
             "Savannakhet Foods",
             "Indochina Pack"
@@ -613,113 +619,113 @@
         },
         {
           "index": "04",
-          "title": "TRADING",
+          "title": "ການຄ້າ",
           "companies": [
             "Lan Xang Trading"
           ]
         },
         {
           "index": "05",
-          "title": "MARKET",
+          "title": "ຕະຫຼາດ",
           "companies": [
             "—"
           ]
         }
       ],
-      "reLabel": "REAL ESTATE / INFRASTRUCTURE",
-      "reNote": "A supporting pillar of the ecosystem — That Luang Estates."
+      "reLabel": "ອະສັງຫາລິມະຊັບ / ໂຄງລ່າງພື້ນຖານ",
+      "reNote": "ເສົາຫຼັກເສີມຂອງລະບົບນິເວດ — That Luang Estates."
     },
     "portfolio": {
       "headline": "ທຸລະກິດໃນລະບົບນິເວດ PAA.",
-      "lead": "Each business operates independently in its sector while connecting with and reinforcing the shared ecosystem.",
-      "cta": "Explore",
+      "lead": "ແຕ່ລະທຸລະກິດດຳເນີນງານຢ່າງເອກະລາດໃນຂະແໜງຂອງຕົນ ພ້ອມທັງເຊື່ອມໂຍງ ແລະ ເສີມລະບົບນິເວດຮ່ວມກັນ.",
+      "cta": "ສຳຫຼວດ",
       "filters": [
         {
           "id": "all",
-          "label": "All"
+          "label": "ທັງໝົດ"
         },
         {
           "id": "agriculture",
-          "label": "Agriculture"
+          "label": "ກະສິກໍາ"
         },
         {
           "id": "food",
-          "label": "Processing & Manufacturing"
+          "label": "ປຸງແຕ່ງ & ຜະລິດ"
         },
         {
           "id": "materials",
-          "label": "Materials"
+          "label": "ວັດຖຸດິບ"
         },
         {
           "id": "trading",
-          "label": "Trading"
+          "label": "ການຄ້າ"
         },
         {
           "id": "realEstate",
-          "label": "Real estate"
+          "label": "ອະສັງຫາລິມະຊັບ"
         }
       ],
       "companies": [
         {
-          "path": "BUILD",
+          "path": "ສ້າງ",
           "name": "PAA Agro",
-          "meta": "Agriculture · Founded 2023 · Vientiane",
+          "meta": "ກະສິກໍາ · ສ້າງຕັ້ງ 2023 · Vientiane",
           "sector": "agriculture",
           "image": "/images/business/company-01.png",
           "href": "/our-business/paa-agro"
         },
         {
-          "path": "ACQUIRE",
+          "path": "ຊື້",
           "name": "Mekong Latex",
-          "meta": "Materials · Founded 2016 · Champasak",
+          "meta": "ວັດຖຸດິບ · ສ້າງຕັ້ງ 2016 · Champasak",
           "sector": "materials",
           "image": "/images/business/company-02.png",
           "href": "/our-business/natural-materials"
         },
         {
-          "path": "BUILD",
+          "path": "ສ້າງ",
           "name": "Savannakhet Foods",
-          "meta": "Processing & Manufacturing · Founded 2024 · Savannakhet",
+          "meta": "ປຸງແຕ່ງ & ຜະລິດ · ສ້າງຕັ້ງ 2024 · Savannakhet",
           "sector": "food",
           "image": "/images/business/company-03.png",
           "href": "/our-business/food-processing"
         },
         {
-          "path": "PARTNER",
+          "path": "ຮ່ວມມື",
           "name": "Lan Xang Trading",
-          "meta": "Trading · Founded 2019 · Vientiane",
+          "meta": "ການຄ້າ · ສ້າງຕັ້ງ 2019 · Vientiane",
           "sector": "trading",
           "image": "/images/business/company-04.png",
           "href": "/our-business/trading"
         },
         {
-          "path": "INVEST",
+          "path": "ລົງທຶນ",
           "name": "That Luang Estates",
-          "meta": "Real estate · Founded 2018 · Vientiane",
+          "meta": "ອະສັງຫາລິມະຊັບ · ສ້າງຕັ້ງ 2018 · Vientiane",
           "sector": "realEstate",
           "image": "/images/business/company-05.png",
           "href": "/our-business/real-estate"
         },
         {
-          "path": "ACQUIRE",
+          "path": "ຊື້",
           "name": "Bolaven Cassava",
-          "meta": "Agriculture · Founded 2014 · Bolaven Plateau",
+          "meta": "ກະສິກໍາ · ສ້າງຕັ້ງ 2014 · Bolaven Plateau",
           "sector": "agriculture",
           "image": "/images/business/company-06.png",
           "href": "/our-business/agriculture"
         },
         {
-          "path": "PARTNER",
+          "path": "ຮ່ວມມື",
           "name": "Indochina Pack",
-          "meta": "Processing & Manufacturing · Founded 2021 · Bangkok",
+          "meta": "ປຸງແຕ່ງ & ຜະລິດ · ສ້າງຕັ້ງ 2021 · Bangkok",
           "sector": "food",
           "image": "/images/business/company-07.png",
           "href": "/our-business/food-processing"
         },
         {
-          "path": "INVEST",
+          "path": "ລົງທຶນ",
           "name": "Annam Timber",
-          "meta": "Materials · Founded 2012 · Attapeu",
+          "meta": "ວັດຖຸດິບ · ສ້າງຕັ້ງ 2012 · Attapeu",
           "sector": "materials",
           "image": "/images/business/company-08.png",
           "href": "/our-business/natural-materials"
@@ -729,26 +735,26 @@
     "closing": {
       "line1": "ມູນຄ່າບໍ່ພຽງແຕ່ຢູ່ໃນແຕ່ລະທຸລະກິດ.",
       "line2a": "ມູນຄ່າຢູ່ທີ່ ",
-      "line2accent": "ວິທີພວກມັນເຊື່ອມຕໍ່",
+      "line2accent": "ວິທີທີ່ເຂົາເຈົ້າເຊື່ອມໂຍງກັນ",
       "line2b": ".",
-      "lead": "PAA ມຸ່ງສ້າງລະບົບນິເວດທີ່ແຕ່ລະທຸລະກິດສາມາດພັດທະນາຄວາມສາມາດຂອງຕົນເອງ ແລະ ສ້າງຄວາມເຊື່ອມໂຍງທີ່ມີມູນຄ່າກັບທັງພອດໂຟລິໂອ."
+      "lead": "PAA ມຸ່ງໝັ້ນສ້າງລະບົບນິເວດທີ່ແຕ່ລະທຸລະກິດສາມາດພັດທະນາຄວາມສາມາດຂອງຕົນ ພ້ອມສ້າງຄວາມເຊື່ອມໂຍງທີ່ມີມູນຄ່າໃນທົ່ວພໍດ໌ໂຟລິໂອ."
     },
     "explore": {
-      "eyebrow": "EXPLORE PAA",
-      "headline": "Learn more about the PAA ecosystem.",
+      "eyebrow": "ສຳຫຼວດ PAA",
+      "headline": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບລະບົບນິເວດ PAA.",
       "items": [
         {
           "index": "01",
-          "title": "INVESTMENT APPROACH",
-          "body": "Explore how PAA chooses opportunities and approaches long-term investment.",
-          "cta": "Explore our approach",
+          "title": "ວິທີການລົງທຶນ",
+          "body": "ສຳຫຼວດວິທີທີ່ PAA ເລືອກໂອກາດ ແລະ ເຂົ້າຫາການລົງທຶນໄລຍະຍາວ.",
+          "cta": "ສຳຫຼວດວິທີຂອງພວກເຮົາ",
           "href": "/investment-approach"
         },
         {
           "index": "02",
-          "title": "WHO WE ARE",
-          "body": "Learn the story, values, and foundation behind PAA.",
-          "cta": "About PAA",
+          "title": "ກ່ຽວກັບພວກເຮົາ",
+          "body": "ຮຽນຮູ້ເລື່ອງລາວ, ຄຸນຄ່າ ແລະ ພື້ນຖານຂອງ PAA.",
+          "cta": "ກ່ຽວກັບ PAA",
           "href": "/who-we-are"
         }
       ]
@@ -812,431 +818,431 @@
     "shared": {
       "journey": [
         {
-          "title": "NÔNG NGHIỆP",
+          "title": "ກະສິກໍາ",
           "companies": [
             "PAA Agro",
             "Bolaven Cassava"
           ]
         },
         {
-          "title": "NGUYÊN VẬT LIỆU",
+          "title": "ວັດຖຸດິບ",
           "companies": [
             "Mekong Latex",
             "Annam Timber"
           ]
         },
         {
-          "title": "CHẾ BIẾN & SẢN XUẤT",
+          "title": "ປຸງແຕ່ງ & ຜະລິດ",
           "companies": [
             "Savannakhet Foods",
             "Indochina Pack"
           ]
         },
         {
-          "title": "THƯƠNG MẠI",
+          "title": "ການຄ້າ",
           "companies": [
             "Lan Xang Trading"
           ]
         },
         {
-          "title": "THỊ TRƯỜNG",
+          "title": "ຕະຫຼາດ",
           "companies": [
             "—"
           ]
         }
       ],
       "titles": {
-        "agriculture": "NÔNG NGHIỆP",
-        "food": "CHẾ BIẾN & SẢN XUẤT",
-        "materials": "NGUYÊN VẬT LIỆU",
-        "trading": "THƯƠNG MẠI",
-        "realEstate": "BẤT ĐỘNG SẢN"
+        "agriculture": "ກະສິກໍາ",
+        "food": "ປຸງແຕ່ງ & ຜະລິດ",
+        "materials": "ວັດຖຸດິບ",
+        "trading": "ການຄ້າ",
+        "realEstate": "ອະສັງຫາລິມະຊັບ"
       }
     },
     "agriculture": {
       "hero": {
-        "eyebrow": "LĨNH VỰC KINH DOANH  /  {index}",
-        "title": "Nông nghiệp",
-        "lead": "Phát triển giá trị từ nguồn lực nông nghiệp của khu vực.",
+        "eyebrow": "ຂະແໜງທຸລະກິດ  /  {index}",
+        "title": "ກະສິກໍາ",
+        "lead": "ພັດທະນາມູນຄ່າຈາກຊັບພະຍາກອນກະສິກໍາຂອງພາກພື້ນ.",
         "scroll": "SCROLL ↓"
       },
       "overview": {
-        "eyebrow": "TỔNG QUAN",
-        "headline": "Phát triển nông nghiệp với góc nhìn dài hạn.",
+        "eyebrow": "ພາບລວມ",
+        "headline": "ພັດທະນາກະສິກໍາດ້ວຍມຸມມອງໄລຍະຍາວ.",
         "paragraphs": [
-          "Nông nghiệp là nền tảng nguồn lực của khu vực — nơi PAA tham gia xây dựng doanh nghiệp gắn với đất đai, cây trồng và chuỗi cung ứng tại chỗ.",
-          "Chúng tôi tiếp cận lĩnh vực này thông qua việc xây dựng và mua lại những doanh nghiệp có thể kết nối với chế biến, nguyên liệu và thị trường trong cùng hệ sinh thái.",
-          "Mục tiêu không phải mở rộng cho đủ danh mục, mà hình thành năng lực sản xuất bền vững, có thể bổ trợ cho các lĩnh vực khác của PAA."
+          "ກະສິກໍາແມ່ນພື້ນຖານຊັບພະຍາກອນຂອງພາກພື້ນ — ບ່ອນທີ່ PAA ສ້າງທຸລະກິດທີ່ຜູກພັນກັບດິນ, ພືດຜົນ ແລະ ລະບົບຕ່ອງໂສ້ການສະໜອງໃນທ້ອງຖິ່ນ.",
+          "ພວກເຮົາເຂົ້າຫາຂະແໜງນີ້ໂດຍການສ້າງ ແລະ ຊື້ທຸລະກິດທີ່ສາມາດເຊື່ອມໂຍງກັບການປຸງແຕ່ງ, ວັດຖຸດິບ ແລະ ຕະຫຼາດໃນລະບົບນິເວດດຽວກັນ.",
+          "ເປົ້າໝາຍບໍ່ແມ່ນການຂະຫຍາຍເພື່ອມີລາຍຊື່, ແຕ່ເພື່ອສ້າງຄວາມສາມາດການຜະລິດທີ່ຍືນຍົງ ທີ່ສະໜັບສະໜູນຂະແໜງອື່ນຂອງ PAA."
         ]
       },
       "activities": {
-        "eyebrow": "TRỌNG TÂM HOẠT ĐỘNG",
+        "eyebrow": "ຈຸດເນັ້ນ",
         "items": [
           {
-            "title": "CAO SU",
-            "body": "Phát triển nguồn lực cao su của khu vực như một nền tảng sản xuất dài hạn."
+            "title": "ຢາງພາຣາ",
+            "body": "ພັດທະນາຊັບພະຍາກອນຢາງພາຣາຂອງພາກພື້ນເປັນພື້ນຖານການຜະລິດໄລຍະຍາວ."
           },
           {
-            "title": "SẮN",
-            "body": "Gắn cây sắn với chuỗi chế biến và thị trường trong hệ sinh thái PAA."
+            "title": "ມັນສຳປະຫຼັງ",
+            "body": "ເຊື່ອມໂຍງມັນສຳປະຫຼັງກັບການປຸງແຕ່ງ ແລະ ຕະຫຼາດໃນລະບົບນິເວດ PAA."
           },
           {
-            "title": "CHĂN NUÔI",
-            "body": "Bổ sung năng lực nông nghiệp thông qua hoạt động chăn nuôi có kiểm soát."
+            "title": "ລ້ຽງສັດ",
+            "body": "ເສີມຄວາມສາມາດກະສິກໍາຜ່ານການລ້ຽງສັດທີ່ຄວບຄຸມໄດ້."
           }
         ]
       },
       "valueChain": {
-        "eyebrow": "VAI TRÒ TRONG CHUỖI GIÁ TRỊ",
-        "headline": "Nông nghiệp là điểm khởi đầu của hệ sinh thái PAA."
+        "eyebrow": "ບົດບາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ",
+        "headline": "ກະສິກໍາແມ່ນຈຸດເລີ່ມຕົ້ນຂອງລະບົບນິເວດ PAA."
       },
       "companies": {
-        "eyebrow": "DOANH NGHIỆP",
-        "headline": "Những doanh nghiệp hoạt động trong lĩnh vực này.",
-        "cta": "Khám phá",
+        "eyebrow": "ທຸລະກິດ",
+        "headline": "ທຸລະກິດທີ່ດຳເນີນງານໃນຂະແໜງນີ້.",
+        "cta": "ສຳຫຼວດ",
         "items": [
           {
-            "path": "XÂY DỰNG",
+            "path": "ສ້າງ",
             "name": "PAA Agro",
-            "meta": "Nông nghiệp · Thành lập 2023 · Viêng Chăn"
+            "meta": "ກະສິກໍາ · ສ້າງຕັ້ງ 2023 · Vientiane"
           },
           {
-            "path": "MUA LẠI",
+            "path": "ຊື້",
             "name": "Bolaven Cassava",
-            "meta": "Nông nghiệp · Thành lập 2014 · Cao nguyên Bolaven"
+            "meta": "ກະສິກໍາ · ສ້າງຕັ້ງ 2014 · Bolaven Plateau"
           }
         ]
       },
       "perspective": {
-        "eyebrow": "GÓC NHÌN DÀI HẠN",
-        "headline": "Nông nghiệp cung cấp nguồn lực cho những doanh nghiệp PAA xây dựng về sau.",
-        "body": "Từ nguồn lực địa phương, PAA tìm kiếm cơ hội tạo ra giá trị dài hạn xuyên suốt hệ sinh thái."
+        "eyebrow": "ມຸມມອງໄລຍະຍາວ",
+        "headline": "ກະສິກໍາສະໜອງຊັບພະຍາກອນໃຫ້ທຸລະກິດທີ່ PAA ຈະສ້າງຕໍ່ໄປ.",
+        "body": "ຈາກຊັບພະຍາກອນທ້ອງຖິ່ນ, PAA ຊອກຫາໂອກາດເພື່ອສ້າງມູນຄ່າໄລຍະຍາວທົ່ວລະບົບນິເວດ."
       },
       "related": {
-        "eyebrow": "LĨNH VỰC LIÊN QUAN",
-        "cta": "Khám phá →"
+        "eyebrow": "ຂະແໜງທີ່ກ່ຽວຂ້ອງ",
+        "cta": "ສຳຫຼວດ →"
       },
       "explore": {
-        "eyebrow": "KHÁM PHÁ PAA",
-        "headline": "Tìm hiểu thêm về hệ sinh thái PAA.",
-        "approach": "Chiến lược đầu tư",
-        "about": "Về chúng tôi"
+        "eyebrow": "ສຳຫຼວດ PAA",
+        "headline": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບລະບົບນິເວດ PAA.",
+        "approach": "ວິທີການລົງທຶນ",
+        "about": "ກ່ຽວກັບພວກເຮົາ"
       }
     },
     "food": {
       "hero": {
-        "eyebrow": "LĨNH VỰC KINH DOANH  /  {index}",
-        "title": "Chế biến & Sản xuất",
-        "lead": "Nâng cao giá trị nguồn lực thông qua chế biến và sản xuất.",
+        "eyebrow": "ຂະແໜງທຸລະກິດ  /  {index}",
+        "title": "ປຸງແຕ່ງ & ຜະລິດ",
+        "lead": "ຍົກມູນຄ່າຊັບພະຍາກອນຜ່ານການປຸງແຕ່ງ ແລະ ການຜະລິດ.",
         "scroll": "SCROLL ↓"
       },
       "overview": {
-        "eyebrow": "TỔNG QUAN",
-        "headline": "Phát triển chế biến và sản xuất với góc nhìn dài hạn.",
+        "eyebrow": "ພາບລວມ",
+        "headline": "ພັດທະນາການປຸງແຕ່ງ ແລະ ການຜະລິດດ້ວຍມຸມມອງໄລຍະຍາວ.",
         "paragraphs": [
-          "Chế biến và sản xuất là nơi nguồn lực của khu vực được chuyển thành sản phẩm có thể đưa ra thị trường.",
-          "PAA tham gia lĩnh vực này để kết nối đầu vào nông nghiệp và nguyên liệu với năng lực sản xuất, đóng gói và chuẩn bị hàng hóa.",
-          "Các doanh nghiệp được xây dựng để bổ trợ cho chuỗi, không vận hành như những nhà máy tách rời."
+          "ການປຸງແຕ່ງ ແລະ ການຜະລິດແມ່ນບ່ອນທີ່ຊັບພະຍາກອນພາກພື້ນກາຍເປັນຜະລິດຕະພັນທີ່ສາມາດເຂົ້າສູ່ຕະຫຼາດ.",
+          "PAA ເຂົ້າຮ່ວມຂະແໜງນີ້ເພື່ອເຊື່ອມໂຍງວັດຖຸດິບກະສິກໍາ ແລະ ວັດຖຸດິບກັບການຜະລິດ, ການຫຸ້ມຫໍ່ ແລະ ຄວາມພ້ອມຂອງສິນຄ້າ.",
+          "ທຸລະກິດຖືກສ້າງເພື່ອສະໜັບສະໜູນລະບົບຕ່ອງໂສ້, ບໍ່ແມ່ນເພື່ອດຳເນີນງານເປັນໂຮງງານແຍກກັນ."
         ]
       },
       "activities": {
-        "eyebrow": "TRỌNG TÂM HOẠT ĐỘNG",
+        "eyebrow": "ຈຸດເນັ້ນ",
         "items": [
           {
-            "title": "CHẾ BIẾN THỰC PHẨM",
-            "body": "Chuyển nguồn lực nông nghiệp thành sản phẩm có thể lưu thông."
+            "title": "ປຸງແຕ່ງອາຫານ",
+            "body": "ປ່ຽນຊັບພະຍາກອນກະສິກໍາເປັນຜະລິດຕະພັນທີ່ໄຫຼວຽນໄດ້."
           },
           {
-            "title": "ĐÓNG GÓI",
-            "body": "Chuẩn bị hàng hóa để kết nối với thương mại và thị trường."
+            "title": "ຫຸ້ມຫໍ່",
+            "body": "ກະກຽມສິນຄ້າເພື່ອເຊື່ອມໂຍງກັບການຄ້າ ແລະ ຕະຫຼາດ."
           },
           {
-            "title": "SẢN XUẤT",
-            "body": "Duy trì năng lực sản xuất gắn với chuỗi giá trị PAA."
+            "title": "ການຜະລິດ",
+            "body": "ຮັກສາຄວາມສາມາດການຜະລິດທີ່ຜູກພັນກັບລະບົບຕ່ອງໂສ້ມູນຄ່າ PAA."
           }
         ]
       },
       "valueChain": {
-        "eyebrow": "VAI TRÒ TRONG CHUỖI GIÁ TRỊ",
-        "headline": "Chế biến biến nguồn lực thành sản phẩm sẵn sàng ra thị trường."
+        "eyebrow": "ບົດບາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ",
+        "headline": "ການປຸງແຕ່ງປ່ຽນຊັບພະຍາກອນເປັນຜະລິດຕະພັນພ້ອມສຳລັບຕະຫຼາດ."
       },
       "companies": {
-        "eyebrow": "DOANH NGHIỆP",
-        "headline": "Những doanh nghiệp hoạt động trong lĩnh vực này.",
-        "cta": "Khám phá",
+        "eyebrow": "ທຸລະກິດ",
+        "headline": "ທຸລະກິດທີ່ດຳເນີນງານໃນຂະແໜງນີ້.",
+        "cta": "ສຳຫຼວດ",
         "items": [
           {
-            "path": "XÂY DỰNG",
+            "path": "ສ້າງ",
             "name": "Savannakhet Foods",
-            "meta": "Chế biến & Sản xuất · Thành lập 2024 · Savannakhet"
+            "meta": "ປຸງແຕ່ງ & ຜະລິດ · ສ້າງຕັ້ງ 2024 · Savannakhet"
           },
           {
-            "path": "HỢP TÁC",
+            "path": "ຮ່ວມມື",
             "name": "Indochina Pack",
-            "meta": "Chế biến & Sản xuất · Thành lập 2021 · Bangkok"
+            "meta": "ປຸງແຕ່ງ & ຜະລິດ · ສ້າງຕັ້ງ 2021 · Bangkok"
           }
         ]
       },
       "perspective": {
-        "eyebrow": "GÓC NHÌN DÀI HẠN",
-        "headline": "Chế biến tạo cầu nối giữa nguồn lực và thị trường.",
-        "body": "PAA xây dựng năng lực chế biến như một phần của chuỗi giá trị dài hạn, không như nhà máy đứng riêng."
+        "eyebrow": "ມຸມມອງໄລຍະຍາວ",
+        "headline": "ການປຸງແຕ່ງສ້າງຂົວເຊື່ອມລະຫວ່າງຊັບພະຍາກອນ ແລະ ຕະຫຼາດ.",
+        "body": "PAA ສ້າງຄວາມສາມາດການຜະລິດເປັນສ່ວນໜຶ່ງຂອງລະບົບຕ່ອງໂສ້ມູນຄ່າທີ່ຍາວກວ່າ, ບໍ່ແມ່ນໂຮງງານເອກະລາດ."
       },
       "related": {
-        "eyebrow": "LĨNH VỰC LIÊN QUAN",
-        "cta": "Khám phá →"
+        "eyebrow": "ຂະແໜງທີ່ກ່ຽວຂ້ອງ",
+        "cta": "ສຳຫຼວດ →"
       },
       "explore": {
-        "eyebrow": "KHÁM PHÁ PAA",
-        "headline": "Tìm hiểu thêm về hệ sinh thái PAA.",
-        "approach": "Chiến lược đầu tư",
-        "about": "Về chúng tôi"
+        "eyebrow": "ສຳຫຼວດ PAA",
+        "headline": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບລະບົບນິເວດ PAA.",
+        "approach": "ວິທີການລົງທຶນ",
+        "about": "ກ່ຽວກັບພວກເຮົາ"
       }
     },
     "materials": {
       "hero": {
-        "eyebrow": "LĨNH VỰC KINH DOANH  /  {index}",
-        "title": "Nguyên vật liệu",
-        "lead": "Phát triển giá trị từ những nguồn nguyên liệu của khu vực.",
+        "eyebrow": "ຂະແໜງທຸລະກິດ  /  {index}",
+        "title": "ວັດຖຸດິບ",
+        "lead": "ພັດທະນາມູນຄ່າຈາກແຫຼ່ງວັດຖຸດິບທຳມະຊາດຂອງພາກພື້ນ.",
         "scroll": "SCROLL ↓"
       },
       "overview": {
-        "eyebrow": "TỔNG QUAN",
-        "headline": "Phát triển nguyên vật liệu với góc nhìn dài hạn.",
+        "eyebrow": "ພາບລວມ",
+        "headline": "ພັດທະນາວັດຖຸດິບດ້ວຍມຸມມອງໄລຍະຍາວ.",
         "paragraphs": [
-          "Nguyên vật liệu là cầu nối giữa nguồn lực tự nhiên và các hoạt động chế biến, thương mại trong hệ sinh thái PAA.",
-          "Chúng tôi tham gia lĩnh vực này thông qua những doanh nghiệp gắn với cao su, gỗ và nguồn nguyên liệu của khu vực.",
-          "Cách tiếp cận là phát triển nguồn cung có thể phục vụ sản xuất, chứ không tách rời khỏi chuỗi."
+          "ວັດຖຸດິບແມ່ນຂົວເຊື່ອມລະຫວ່າງຊັບພະຍາກອນທຳມະຊາດກັບການປຸງແຕ່ງ ແລະ ການຄ້າໃນລະບົບນິເວດ PAA.",
+          "ພວກເຮົາເຂົ້າຮ່ວມຜ່ານທຸລະກິດທີ່ກ່ຽວຂ້ອງກັບຢາງພາຣາ, ໄມ້ ແລະ ວັດຖຸດິບຂອງພາກພື້ນ.",
+          "ວິທີແມ່ນພັດທະນາການສະໜອງທີ່ສາມາດຮັບໃຊ້ການຜະລິດ — ບໍ່ແມ່ນວັດຖຸດິບທີ່ແຍກຈາກລະບົບຕ່ອງໂສ້."
         ]
       },
       "activities": {
-        "eyebrow": "TRỌNG TÂM HOẠT ĐỘNG",
+        "eyebrow": "ຈຸດເນັ້ນ",
         "items": [
           {
-            "title": "CAO SU THIÊN NHIÊN",
-            "body": "Phát triển nguồn cao su như nguyên liệu cho sản xuất và thương mại."
+            "title": "ຢາງພາຣາທຳມະຊາດ",
+            "body": "ພັດທະນາຢາງພາຣາເປັນວັດຖຸດິບສຳລັບການຜະລິດ ແລະ ການຄ້າ."
           },
           {
-            "title": "GỖ",
-            "body": "Quản lý nguồn gỗ như tài nguyên đầu vào, không tách khỏi hệ sinh thái."
+            "title": "ໄມ້",
+            "body": "ຈັດການໄມ້ເປັນຊັບພະຍາກອນປ້ອນເຂົ້າ, ບໍ່ແມ່ນນອກລະບົບນິເວດ."
           },
           {
-            "title": "NGUỒN NGUYÊN LIỆU",
-            "body": "Kết nối nguyên liệu của khu vực với năng lực chế biến của PAA."
+            "title": "ວັດຖຸດິບ",
+            "body": "ເຊື່ອມໂຍງວັດຖຸດິບພາກພື້ນກັບຄວາມສາມາດປຸງແຕ່ງຂອງ PAA."
           }
         ]
       },
       "valueChain": {
-        "eyebrow": "VAI TRÒ TRONG CHUỖI GIÁ TRỊ",
-        "headline": "Nguyên vật liệu kết nối nguồn lực với chế biến và thương mại."
+        "eyebrow": "ບົດບາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ",
+        "headline": "ວັດຖຸດິບເຊື່ອມຊັບພະຍາກອນກັບການປຸງແຕ່ງ ແລະ ການຄ້າ."
       },
       "companies": {
-        "eyebrow": "DOANH NGHIỆP",
-        "headline": "Những doanh nghiệp hoạt động trong lĩnh vực này.",
-        "cta": "Khám phá",
+        "eyebrow": "ທຸລະກິດ",
+        "headline": "ທຸລະກິດທີ່ດຳເນີນງານໃນຂະແໜງນີ້.",
+        "cta": "ສຳຫຼວດ",
         "items": [
           {
-            "path": "MUA LẠI",
+            "path": "ຊື້",
             "name": "Mekong Latex",
-            "meta": "Nguyên vật liệu · Thành lập 2016 · Champasak"
+            "meta": "ວັດຖຸດິບ · ສ້າງຕັ້ງ 2016 · Champasak"
           },
           {
-            "path": "ĐẦU TƯ",
+            "path": "ລົງທຶນ",
             "name": "Annam Timber",
-            "meta": "Nguyên vật liệu · Thành lập 2012 · Attapeu"
+            "meta": "ວັດຖຸດິບ · ສ້າງຕັ້ງ 2012 · Attapeu"
           }
         ]
       },
       "perspective": {
-        "eyebrow": "GÓC NHÌN DÀI HẠN",
-        "headline": "Nguyên vật liệu củng cố mọi giai đoạn phía sau.",
-        "body": "Nguồn nguyên liệu ổn định giúp PAA giữ chế biến và thương mại gắn với khu vực."
+        "eyebrow": "ມຸມມອງໄລຍະຍາວ",
+        "headline": "ວັດຖຸດິບເສີມທຸກຂັ້ນຕອນທີ່ຕາມມາ.",
+        "body": "ການສະໜອງວັດຖຸດິບທີ່ໜ້າເຊື່ອຖືເຮັດໃຫ້ການປຸງແຕ່ງ ແລະ ການຄ້າຂອງ PAA ຍຶດໃນພາກພື້ນ."
       },
       "related": {
-        "eyebrow": "LĨNH VỰC LIÊN QUAN",
-        "cta": "Khám phá →"
+        "eyebrow": "ຂະແໜງທີ່ກ່ຽວຂ້ອງ",
+        "cta": "ສຳຫຼວດ →"
       },
       "explore": {
-        "eyebrow": "KHÁM PHÁ PAA",
-        "headline": "Tìm hiểu thêm về hệ sinh thái PAA.",
-        "approach": "Chiến lược đầu tư",
-        "about": "Về chúng tôi"
+        "eyebrow": "ສຳຫຼວດ PAA",
+        "headline": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບລະບົບນິເວດ PAA.",
+        "approach": "ວິທີການລົງທຶນ",
+        "about": "ກ່ຽວກັບພວກເຮົາ"
       }
     },
     "trading": {
       "hero": {
-        "eyebrow": "LĨNH VỰC KINH DOANH  /  {index}",
-        "title": "Thương mại & Xuất nhập khẩu",
-        "lead": "Kết nối nguồn lực và sản phẩm với những thị trường rộng lớn hơn.",
+        "eyebrow": "ຂະແໜງທຸລະກິດ  /  {index}",
+        "title": "ການຄ້າ &\nນໍາເຂົ້າ-ສົ່ງອອກ",
+        "lead": "ເຊື່ອມຊັບພະຍາກອນ ແລະ ຜະລິດຕະພັນກັບຕະຫຼາດທີ່ກວ້າງຂວາງຂຶ້ນ.",
         "scroll": "SCROLL ↓"
       },
       "overview": {
-        "eyebrow": "TỔNG QUAN",
-        "headline": "Phát triển thương mại với góc nhìn dài hạn.",
+        "eyebrow": "ພາບລວມ",
+        "headline": "ພັດທະນາການຄ້າດ້ວຍມຸມມອງໄລຍະຍາວ.",
         "paragraphs": [
-          "Thương mại và xuất nhập khẩu là cửa ngõ đưa sản phẩm của hệ sinh thái PAA tiếp cận thị trường ngoài khu vực sản xuất.",
-          "PAA tham gia lĩnh vực này để kết nối hàng hóa từ nông nghiệp, nguyên liệu và chế biến với các luồng thương mại hiện có.",
-          "Doanh nghiệp thương mại được đặt trong chuỗi, không vận hành như một hoạt động mua bán tách rời."
+          "ການຄ້າ ແລະ ນໍາເຂົ້າ-ສົ່ງອອກແມ່ນປະຕູໃຫ້ຜະລິດຕະພັນຂອງລະບົບນິເວດ PAA ເຂົ້າສູ່ຕະຫຼາດນອກເຂດການຜະລິດ.",
+          "PAA ເຂົ້າຮ່ວມເພື່ອເຊື່ອມສິນຄ້າຈາກກະສິກໍາ, ວັດຖຸດິບ ແລະ ການປຸງແຕ່ງກັບກະແສການຄ້າທີ່ມີຢູ່.",
+          "ທຸລະກິດການຄ້າຢູ່ໃນລະບົບຕ່ອງໂສ້, ບໍ່ແມ່ນກິດຈະກຳຊື້-ຂາຍແຍກກັນ."
         ]
       },
       "activities": {
-        "eyebrow": "TRỌNG TÂM HOẠT ĐỘNG",
+        "eyebrow": "ຈຸດເນັ້ນ",
         "items": [
           {
-            "title": "XUẤT KHẨU",
-            "body": "Đưa sản phẩm của hệ sinh thái tiếp cận thị trường bên ngoài."
+            "title": "ສົ່ງອອກ",
+            "body": "ນຳຜະລິດຕະພັນຂອງລະບົບນິເວດໄປຕະຫຼາດພາຍນອກ."
           },
           {
-            "title": "NHẬP KHẨU",
-            "body": "Bổ sung nguồn lực và hàng hóa cần thiết cho hoạt động của hệ sinh thái."
+            "title": "ນໍາເຂົ້າ",
+            "body": "ເສີມຊັບພະຍາກອນ ແລະ ສິນຄ້າທີ່ລະບົບນິເວດຕ້ອງການ."
           },
           {
-            "title": "LOGISTICS",
-            "body": "Kết nối hàng hóa với các luồng vận chuyển và thương mại."
+            "title": "ໂລຈິສຕິກ",
+            "body": "ເຊື່ອມສິນຄ້າກັບການຂົນສົ່ງ ແລະ ກະແສການຄ້າ."
           }
         ]
       },
       "valueChain": {
-        "eyebrow": "VAI TRÒ TRONG CHUỖI GIÁ TRỊ",
-        "headline": "Thương mại mở đường từ sản xuất đến thị trường."
+        "eyebrow": "ບົດບາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ",
+        "headline": "ການຄ້າເປີດທາງຈາກການຜະລິດສູ່ຕະຫຼາດ."
       },
       "companies": {
-        "eyebrow": "DOANH NGHIỆP",
-        "headline": "Những doanh nghiệp hoạt động trong lĩnh vực này.",
-        "cta": "Khám phá",
+        "eyebrow": "ທຸລະກິດ",
+        "headline": "ທຸລະກິດທີ່ດຳເນີນງານໃນຂະແໜງນີ້.",
+        "cta": "ສຳຫຼວດ",
         "items": [
           {
-            "path": "HỢP TÁC",
+            "path": "ຮ່ວມມື",
             "name": "Lan Xang Trading",
-            "meta": "Thương mại · Thành lập 2019 · Viêng Chăn"
+            "meta": "ການຄ້າ · ສ້າງຕັ້ງ 2019 · Vientiane"
           },
           {
-            "path": "XÂY DỰNG",
+            "path": "ສ້າງ",
             "name": "Savannakhet Foods",
-            "meta": "Chế biến & Sản xuất · Thành lập 2024 · Savannakhet"
+            "meta": "ປຸງແຕ່ງ & ຜະລິດ · ສ້າງຕັ້ງ 2024 · Savannakhet"
           }
         ]
       },
       "perspective": {
-        "eyebrow": "GÓC NHÌN DÀI HẠN",
-        "headline": "Thương mại hoàn thiện hành trình từ nguồn lực đến khách hàng.",
-        "body": "PAA xem thương mại là hạ tầng tiếp cận thị trường của hệ sinh thái."
+        "eyebrow": "ມຸມມອງໄລຍະຍາວ",
+        "headline": "ການຄ້າເຮັດໃຫ້ການເດີນທາງຈາກຊັບພະຍາກອນສູ່ລູກຄ້າສົມບູນ.",
+        "body": "PAA ເບິ່ງການຄ້າເປັນໂຄງລ່າງພື້ນຖານສຳລັບການເຂົ້າເຖິງຕະຫຼາດຂອງລະບົບນິເວດ."
       },
       "related": {
-        "eyebrow": "LĨNH VỰC LIÊN QUAN",
-        "cta": "Khám phá →"
+        "eyebrow": "ຂະແໜງທີ່ກ່ຽວຂ້ອງ",
+        "cta": "ສຳຫຼວດ →"
       },
       "explore": {
-        "eyebrow": "KHÁM PHÁ PAA",
-        "headline": "Tìm hiểu thêm về hệ sinh thái PAA.",
-        "approach": "Chiến lược đầu tư",
-        "about": "Về chúng tôi"
+        "eyebrow": "ສຳຫຼວດ PAA",
+        "headline": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບລະບົບນິເວດ PAA.",
+        "approach": "ວິທີການລົງທຶນ",
+        "about": "ກ່ຽວກັບພວກເຮົາ"
       }
     },
     "realEstate": {
       "hero": {
-        "eyebrow": "LĨNH VỰC KINH DOANH  /  {index}",
-        "title": "Bất động sản",
-        "lead": "Phát triển những tài sản cho giá trị dài hạn.",
+        "eyebrow": "ຂະແໜງທຸລະກິດ  /  {index}",
+        "title": "ອະສັງຫາລິມະຊັບ",
+        "lead": "ພັດທະນາຊັບສິນສຳລັບມູນຄ່າໄລຍະຍາວ.",
         "scroll": "SCROLL ↓"
       },
       "overview": {
-        "eyebrow": "TỔNG QUAN",
-        "headline": "Phát triển bất động sản với góc nhìn dài hạn.",
+        "eyebrow": "ພາບລວມ",
+        "headline": "ພັດທະນາອະສັງຫາລິມະຊັບດ້ວຍມຸມມອງໄລຍະຍາວ.",
         "paragraphs": [
-          "Bất động sản trong danh mục PAA hướng tới những tài sản hỗ trợ hoạt động sản xuất, thương mại và vận hành doanh nghiệp.",
-          "Đây không phải một bước trên chuỗi giá trị tuyến tính, mà là hạ tầng bổ trợ cho hệ sinh thái.",
-          "Các tài sản được phát triển để phục vụ nhu cầu dài hạn của doanh nghiệp."
+          "ອະສັງຫາລິມະຊັບໃນພໍດ໌ໂຟລິໂອ PAA ມຸ່ງໄປທີ່ຊັບສິນທີ່ສະໜັບສະໜູນການຜະລິດ, ການຄ້າ ແລະ ການດຳເນີນທຸລະກິດ.",
+          "ນີ້ບໍ່ແມ່ນຂັ້ນຕອນເສັ້ນຊື່ໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ, ແຕ່ເປັນໂຄງລ່າງພື້ນຖານເສີມຂອງລະບົບນິເວດ.",
+          "ຊັບສິນຖືກພັດທະນາເພື່ອຮັບໃຊ້ຄວາມຕ້ອງການໄລຍະຍາວຂອງທຸລະກິດ."
         ]
       },
       "activities": {
-        "eyebrow": "TRỌNG TÂM HOẠT ĐỘNG",
+        "eyebrow": "ຈຸດເນັ້ນ",
         "items": [
           {
-            "title": "BẤT ĐỘNG SẢN THƯƠNG MẠI",
-            "body": "Tài sản phục vụ hoạt động kinh doanh và vận hành dài hạn."
+            "title": "ອະສັງຫາລິມະຊັບການຄ້າ",
+            "body": "ຊັບສິນທີ່ສະໜັບສະໜູນການດຳເນີນທຸລະກິດໄລຍະຍາວ."
           },
           {
-            "title": "TÀI SẢN CÔNG NGHIỆP",
-            "body": "Hạ tầng hỗ trợ sản xuất và logistics trong hệ sinh thái."
+            "title": "ຊັບສິນອຸດສາຫະກຳ",
+            "body": "ໂຄງລ່າງພື້ນຖານສຳລັບການຜະລິດ ແລະ ໂລຈິສຕິກໃນລະບົບນິເວດ."
           },
           {
-            "title": "HẠ TẦNG HỖ TRỢ",
-            "body": "Những tài sản kết nối doanh nghiệp với môi trường hoạt động của họ."
+            "title": "ໂຄງລ່າງພື້ນຖານເສີມ",
+            "body": "ຊັບສິນທີ່ເຊື່ອມທຸລະກິດກັບສະພາບແວດລ້ອມການດຳເນີນງານ."
           }
         ]
       },
       "valueChain": {
-        "eyebrow": "VAI TRÒ TRONG CHUỖI GIÁ TRỊ",
-        "headline": "Bất động sản bổ trợ hệ sinh thái thay vì nằm trên chuỗi tuyến tính."
+        "eyebrow": "ບົດບາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າ",
+        "headline": "ອະສັງຫາລິມະຊັບສະໜັບສະໜູນລະບົບນິເວດ ບໍ່ໄດ້ຢູ່ໃນລະບົບຕ່ອງໂສ້ເສັ້ນຊື່."
       },
       "companies": {
-        "eyebrow": "DOANH NGHIỆP",
-        "headline": "Những doanh nghiệp hoạt động trong lĩnh vực này.",
-        "cta": "Khám phá",
+        "eyebrow": "ທຸລະກິດ",
+        "headline": "ທຸລະກິດທີ່ດຳເນີນງານໃນຂະແໜງນີ້.",
+        "cta": "ສຳຫຼວດ",
         "items": [
           {
-            "path": "ĐẦU TƯ",
+            "path": "ລົງທຶນ",
             "name": "That Luang Estates",
-            "meta": "Bất động sản · Thành lập 2018 · Viêng Chăn"
+            "meta": "ອະສັງຫາລິມະຊັບ · ສ້າງຕັ້ງ 2018 · Vientiane"
           },
           {
-            "path": "ĐẦU TƯ",
+            "path": "ລົງທຶນ",
             "name": "That Luang Estates",
-            "meta": "Bất động sản · Thành lập 2018 · Viêng Chăn"
+            "meta": "ອະສັງຫາລິມະຊັບ · ສ້າງຕັ້ງ 2018 · Vientiane"
           }
         ]
       },
       "perspective": {
-        "eyebrow": "GÓC NHÌN DÀI HẠN",
-        "headline": "Những tài sản bền vững tạo không gian để doanh nghiệp phát triển.",
-        "body": "PAA phát triển bất động sản như hạ tầng hỗ trợ cho toàn bộ danh mục."
+        "eyebrow": "ມຸມມອງໄລຍະຍາວ",
+        "headline": "ຊັບສິນທີ່ຍືນຍົງໃຫ້ພື້ນທີ່ໃຫ້ທຸລະກິດເຕີບໂຕ.",
+        "body": "PAA ພັດທະນາອະສັງຫາລິມະຊັບເປັນໂຄງລ່າງພື້ນຖານເສີມສຳລັບພໍດ໌ໂຟລິໂອທີ່ກວ້າງຂວາງກວ່າ."
       },
       "related": {
-        "eyebrow": "LĨNH VỰC LIÊN QUAN",
-        "cta": "Khám phá →"
+        "eyebrow": "ຂະແໜງທີ່ກ່ຽວຂ້ອງ",
+        "cta": "ສຳຫຼວດ →"
       },
       "explore": {
-        "eyebrow": "KHÁM PHÁ PAA",
-        "headline": "Tìm hiểu thêm về hệ sinh thái PAA.",
-        "approach": "Chiến lược đầu tư",
-        "about": "Về chúng tôi"
+        "eyebrow": "ສຳຫຼວດ PAA",
+        "headline": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບລະບົບນິເວດ PAA.",
+        "approach": "ວິທີການລົງທຶນ",
+        "about": "ກ່ຽວກັບພວກເຮົາ"
       }
     }
   },
   "paaAgro": {
     "hero": {
-      "eyebrow": "PAA GROUP  ·  NÔNG NGHIỆP",
+      "eyebrow": "PAA GROUP  ·  ກະສິກໍາ",
       "title": "PAA Agro",
-      "lead": "Nền tảng nông nghiệp tích hợp tại CHDCND Lào.",
-      "meta": "XÂY DỰNG  ·  2023  ·  VIÊNG CHĂN",
+      "lead": "ແພລດຟອມກະສິກໍາປະສົມປະສານໃນ ສປປ ລາວ.",
+      "meta": "ສ້າງ  ·  2023  ·  VIENTIANE",
       "scroll": "SCROLL"
     },
     "overview": {
-      "eyebrow": "TỔNG QUAN",
-      "headline": "Một nền tảng nông nghiệp tích hợp được xây dựng từ nguồn lực địa phương.",
-      "p1": "PAA Agro là công ty vận hành nông nghiệp cốt lõi của PAA Empire Holdings. Được thành lập năm 2023 tại Viêng Chăn, doanh nghiệp tập trung phát triển các hoạt động nông nghiệp có khả năng kết nối từ nguồn nguyên liệu, sản xuất đến thị trường.",
-      "p2": "Hoạt động của PAA Agro hiện tập trung vào các lĩnh vực nông nghiệp như cao su, sắn và chăn nuôi, hướng đến việc xây dựng những chuỗi giá trị có khả năng phát triển bền vững tại Lào và khu vực Mekong.",
-      "factsEyebrow": "THÔNG TIN DOANH NGHIỆP",
+      "eyebrow": "ພາບລວມ",
+      "headline": "ແພລດຟອມກະສິກໍາປະສົມປະສານທີ່ສ້າງຈາກຊັບພະຍາກອນທ້ອງຖິ່ນ.",
+      "p1": "PAA Agro ແມ່ນບໍລິສັດດຳເນີນງານກະສິກໍາຫຼັກຂອງ PAA Empire Holdings. ສ້າງຕັ້ງໃນປີ 2023 ທີ່ນະຄອນຫຼວງວຽງຈັນ, ເນັ້ນກິດຈະກຳກະສິກໍາທີ່ສາມາດເຊື່ອມວັດຖຸດິບ, ການຜະລິດ ແລະ ຕະຫຼາດ.",
+      "p2": "ການດຳເນີນງານປັດຈຸບັນເນັ້ນຢາງພາຣາ, ມັນສຳປະຫຼັງ ແລະ ລ້ຽງສັດ, ເພື່ອສ້າງລະບົບຕ່ອງໂສ້ມູນຄ່າທີ່ເຕີບໂຕຢ່າງຍືນຍົງໃນລາວ ແລະ ພາກພື້ນແມ່ນ້ຳຂອງ.",
+      "factsEyebrow": "ຂໍ້ມູນບໍລິສັດ",
       "facts": [
         {
-          "label": "HÌNH THỨC",
-          "value": "Xây dựng"
+          "label": "ເສັ້ນທາງ",
+          "value": "ສ້າງ"
         },
         {
-          "label": "SỞ HỮU",
+          "label": "ສັດສ່ວນຖືຫຸ້ນ",
           "value": "100%"
         },
         {
-          "label": "LĨNH VỰC",
-          "value": "Nông nghiệp"
+          "label": "ຂະແໜງ",
+          "value": "ກະສິກໍາ"
         },
         {
-          "label": "TRỤ SỞ",
-          "value": "Viêng Chăn, CHDCND Lào"
+          "label": "ສຳນັກງານໃຫຍ່",
+          "value": "Vientiane, Lao PDR"
         },
         {
-          "label": "GIÁM ĐỐC ĐIỀU HÀNH",
+          "label": "ຜູ້ອຳນວຍການ",
           "value": "Khamla Phommasane"
         }
       ]
@@ -1244,55 +1250,56 @@
     "figures": {
       "items": [
         {
-          "value": "12.400 ha",
-          "label": "DIỆN TÍCH QUẢN LÝ"
+          "value": "12,400 ha",
+          "label": "ເນື້ອທີ່ຈັດການ"
         },
         {
           "value": "480",
-          "label": "NHÂN SỰ"
+          "label": "ພະນັກງານ"
         },
         {
           "value": "2023",
-          "label": "THÀNH LẬP"
+          "label": "ສ້າງຕັ້ງ"
         }
       ]
     },
     "whatWeDo": {
-      "eyebrow": "HOẠT ĐỘNG CỐT LÕI",
-      "headline": "Phát triển giá trị từ những thế mạnh nông nghiệp của khu vực.",
-      "lead": "PAA Agro tập trung xây dựng các hoạt động nông nghiệp có khả năng kết nối nguồn lực, sản xuất và thị trường trong một chuỗi giá trị dài hạn.",
+      "eyebrow": "ກິດຈະກຳຫຼັກ",
+      "headline": "ສ້າງມູນຄ່າຈາກຈຸດແຂງກະສິກໍາຂອງພາກພື້ນ.",
+      "lead": "PAA Agro ເນັ້ນກິດຈະກຳກະສິກໍາທີ່ສາມາດເຊື່ອມຊັບພະຍາກອນ, ການຜະລິດ ແລະ ຕະຫຼາດໃນລະບົບຕ່ອງໂສ້ມູນຄ່າໄລຍະຍາວ.",
       "activities": [
         {
           "index": "01",
-          "title": "CAO SU"
+          "title": "ຢາງພາຣາ"
         },
         {
           "index": "02",
-          "title": "SẮN"
+          "title": "ມັນສຳປະຫຼັງ"
         },
         {
           "index": "03",
-          "title": "CHĂN NUÔI"
+          "title": "ລ້ຽງສັດ"
         }
       ]
     },
     "ecosystem": {
-      "eyebrow": "VAI TRÒ TRONG HỆ SINH THÁI PAA",
-      "headline": "Từ nguồn lực nông nghiệp đến một chuỗi giá trị kết nối.",
-      "lead": "PAA Agro đóng vai trò ở đầu chuỗi giá trị nông nghiệp của PAA, tạo nền tảng nguồn lực có khả năng kết nối với các hoạt động chế biến, thương mại và thị trường.",
+      "eyebrow": "ບົດບາດໃນລະບົບນິເວດ PAA",
+      "headline": "ຈາກຊັບພະຍາກອນກະສິກໍາສູ່ລະບົບຕ່ອງໂສ້ມູນຄ່າທີ່ເຊື່ອມໂຍງ.",
+      "lead": "PAA Agro ຢູ່ປາຍຕົ້ນຂອງລະບົບຕ່ອງໂສ້ມູນຄ່າກະສິກໍາຂອງ PAA, ສ້າງພື້ນຖານຊັບພະຍາກອນທີ່ສາມາດເຊື່ອມກັບການປຸງແຕ່ງ, ການຄ້າ ແລະ ຕະຫຼາດ.",
       "stages": [
         {
           "index": "01",
-          "title": "NÔNG NGHIỆP",
+          "title": "ກະສິກໍາ",
           "companies": [
             "PAA Agro",
             "Bolaven Cassava"
           ],
+          "note": "ຕຳແໜ່ງຂອງ PAA Agro",
           "current": true
         },
         {
           "index": "02",
-          "title": "NGUYÊN VẬT LIỆU",
+          "title": "ວັດຖຸດິບ",
           "companies": [
             "Mekong Latex",
             "Annam Timber"
@@ -1300,7 +1307,7 @@
         },
         {
           "index": "03",
-          "title": "CHẾ BIẾN & SẢN XUẤT",
+          "title": "ປຸງແຕ່ງ & ຜະລິດ",
           "companies": [
             "Savannakhet Foods",
             "Indochina Pack"
@@ -1308,72 +1315,72 @@
         },
         {
           "index": "04",
-          "title": "THƯƠNG MẠI",
+          "title": "ການຄ້າ",
           "companies": [
             "Lan Xang Trading"
           ]
         },
         {
           "index": "05",
-          "title": "THỊ TRƯỜNG",
+          "title": "ຕະຫຼາດ",
           "companies": [
-            "—"
+            "ຕະຫຼາດກວ້າງກວ່າ"
           ]
         }
       ]
     },
     "connected": {
-      "eyebrow": "KẾT NỐI TRONG HỆ SINH THÁI",
-      "headline": "Những doanh nghiệp cùng tạo nên chuỗi giá trị.",
-      "lead": "Khám phá các doanh nghiệp khác trong hệ sinh thái PAA có mối liên hệ với chuỗi giá trị mà PAA Agro tham gia.",
-      "cta": "Khám phá",
+      "eyebrow": "ການເຊື່ອມໂຍງໃນລະບົບນິເວດ",
+      "headline": "ທຸລະກິດທີ່ຮ່ວມກັນສ້າງລະບົບຕ່ອງໂສ້ມູນຄ່າ.",
+      "lead": "ສຳຫຼວດບໍລິສັດອື່ນໃນລະບົບນິເວດ PAA ທີ່ກ່ຽວຂ້ອງກັບລະບົບຕ່ອງໂສ້ມູນຄ່າທີ່ PAA Agro ເຂົ້າຮ່ວມ.",
+      "cta": "ສຳຫຼວດ",
       "cards": [
         {
-          "path": "MUA LẠI",
+          "path": "ຊື້",
           "name": "Mekong Latex",
-          "meta": "Nguyên vật liệu · Thành lập 2016 · Champasak",
+          "meta": "ວັດຖຸດິບ · ສ້າງຕັ້ງ 2016 · Champasak",
           "href": "/our-business/natural-materials",
           "image": "/images/paa-agro/connected-1.png"
         },
         {
-          "path": "XÂY DỰNG",
+          "path": "ສ້າງ",
           "name": "Savannakhet Foods",
-          "meta": "Chế biến & Sản xuất · Thành lập 2024 · Savannakhet",
+          "meta": "ປຸງແຕ່ງ & ຜະລິດ · ສ້າງຕັ້ງ 2024 · Savannakhet",
           "href": "/our-business/food-processing",
           "image": "/images/paa-agro/connected-2.png"
         },
         {
-          "path": "HỢP TÁC",
+          "path": "ຮ່ວມມື",
           "name": "Lan Xang Trading",
-          "meta": "Thương mại · Thành lập 2019 · Viêng Chăn",
+          "meta": "ການຄ້າ · ສ້າງຕັ້ງ 2019 · Vientiane",
           "href": "/our-business/trading",
           "image": "/images/paa-agro/connected-3.png"
         }
       ]
     },
     "website": {
-      "eyebrow": "TÌM HIỂU THÊM",
-      "headline": "Khám phá thêm về PAA Agro.",
-      "lead": "Tìm hiểu chi tiết hơn về hoạt động, sản phẩm và sự phát triển của PAA Agro trên website chính thức.",
-      "cta": "Truy cập website PAA Agro  ↗",
+      "eyebrow": "ຮຽນຮູ້ເພີ່ມເຕີມ",
+      "headline": "ຄົ້ນພົບເພີ່ມເຕີມກ່ຽວກັບ PAA Agro.",
+      "lead": "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບການດຳເນີນງານ, ຜະລິດຕະພັນ ແລະ ການພັດທະນາຂອງ PAA Agro ໃນເວັບໄຊທ໌ທາງການ.",
+      "cta": "ເຂົ້າເບິ່ງເວັບໄຊທ໌ PAA Agro  ↗",
       "url": "https://paaagro.com"
     },
     "explore": {
-      "eyebrow": "KHÁM PHÁ PAA",
-      "headline": "Tiếp tục khám phá hệ sinh thái PAA.",
+      "eyebrow": "ສຳຫຼວດ PAA",
+      "headline": "ສືບຕໍ່ສຳຫຼວດລະບົບນິເວດ PAA.",
       "items": [
         {
           "index": "01",
-          "title": "NÔNG NGHIỆP",
-          "body": "Xem cách PAA tiếp cận nông nghiệp như một lĩnh vực dài hạn.",
-          "cta": "Khám phá nông nghiệp",
+          "title": "ກະສິກໍາ",
+          "body": "ເບິ່ງວິທີທີ່ PAA ເຂົ້າຫາກະສິກໍາເປັນຂະແໜງໄລຍະຍາວ.",
+          "cta": "ສຳຫຼວດກະສິກໍາ",
           "href": "/our-business/agriculture"
         },
         {
           "index": "02",
-          "title": "LĨNH VỰC KINH DOANH",
-          "body": "Quay lại tổng quan hệ sinh thái doanh nghiệp của PAA.",
-          "cta": "Lĩnh vực kinh doanh",
+          "title": "ຂະແໜງທຸລະກິດ",
+          "body": "ກັບຄືນສູ່ພາບລວມລະບົບນິເວດທຸລະກິດ PAA.",
+          "cta": "ຂະແໜງທຸລະກິດ",
           "href": "/our-business"
         }
       ]

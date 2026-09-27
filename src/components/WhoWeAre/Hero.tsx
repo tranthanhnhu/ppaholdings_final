@@ -18,7 +18,7 @@ export async function Hero() {
       <div className="absolute inset-0 bg-[rgba(9,23,37,0.4)]" />
 
       <div className="relative z-10 flex h-full flex-col pb-12 lg:justify-between lg:pb-12">
-        <Header logoSize={50} />
+        <Header />
 
         {/* Desktop */}
         <div className="mx-auto hidden w-full max-w-[1440px] flex-col items-center gap-5 overflow-hidden px-24 pb-14 text-center text-paa-inverse xl:px-[120px] lg:flex">

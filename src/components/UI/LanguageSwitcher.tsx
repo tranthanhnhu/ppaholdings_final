@@ -21,8 +21,11 @@ export function LanguageSwitcher({ tone = "dark" }: LanguageSwitcherProps) {
 
   const idle =
     tone === "light"
-      ? "text-paa-inverse/80 hover:text-paa-inverse"
+      ? "text-paa-inverse/65 hover:text-paa-inverse"
       : "text-paa-muted hover:text-paa-text";
+
+  const active =
+    tone === "light" ? "text-paa-inverse" : "text-paa-accent";
 
   return (
     <div className="flex items-center gap-4" role="navigation" aria-label="Language">
@@ -32,7 +35,7 @@ export function LanguageSwitcher({ tone = "dark" }: LanguageSwitcherProps) {
           href={pathname}
           locale={code}
           className={`font-medium text-[13px] leading-[18px] tracking-[1.2px] transition-colors ${
-            code === locale ? "text-paa-accent" : idle
+            code === locale ? active : idle
           }`}
           aria-current={code === locale ? "true" : undefined}
         >

@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { SectorSlug } from "@/lib/sectors";
 import { sectorMeta } from "@/lib/sectors";
+import { ValueChainStages } from "@/components/Sector/ValueChainStages";
 
 type Stage = {
   title: string;
@@ -26,49 +27,7 @@ export async function SectorValueChain({ slug }: Props) {
         </h2>
       </div>
 
-      <div className="flex gap-4 overflow-x-auto pb-2 lg:gap-0">
-        {stages.map((stage, i) => {
-          const active = i === current;
-          const color = active ? "text-paa-accent" : "text-paa-muted";
-          return (
-            <div
-              key={stage.title}
-              className="flex min-w-[180px] flex-1 flex-col gap-3 lg:min-w-0"
-            >
-              <div className="flex items-center py-2">
-                {i > 0 && (
-                  <div
-                    className={`h-px flex-1 ${
-                      active ? "bg-paa-accent" : "bg-paa-muted"
-                    }`}
-                  />
-                )}
-                <span
-                  className={`size-2 shrink-0 rounded-full ${
-                    active ? "bg-paa-accent" : "bg-paa-muted"
-                  }`}
-                />
-                {i < stages.length - 1 && (
-                  <div
-                    className={`h-px flex-1 ${
-                      active ? "bg-paa-accent" : "bg-paa-muted"
-                    }`}
-                  />
-                )}
-              </div>
-              <p className={`text-[11px] font-medium tracking-[1.4px] ${color}`}>
-                {String(i + 1).padStart(2, "0")}
-              </p>
-              <p className={`text-[14px] font-medium ${color}`}>{stage.title}</p>
-              <div className="text-[12px] leading-normal text-paa-muted">
-                {stage.companies.map((c) => (
-                  <p key={c}>{c}</p>
-                ))}
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <ValueChainStages stages={stages} current={current} />
     </section>
   );
 }

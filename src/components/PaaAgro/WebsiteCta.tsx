@@ -14,14 +14,12 @@ export async function PaaAgroWebsiteCta() {
       <p className="mb-8 max-w-[640px] text-[16px] leading-[26px] text-paa-text lg:text-[18px] lg:leading-[30px]">
         {t("lead")}
       </p>
-      <a
-        href={t("url")}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-[13px] font-medium tracking-[1.2px] text-paa-accent whitespace-pre"
+      <span
+        aria-disabled="true"
+        className="cursor-not-allowed text-[13px] font-medium tracking-[1.2px] text-paa-muted/50 whitespace-pre"
       >
         {t("cta")}
-      </a>
+      </span>
     </section>
   );
 }

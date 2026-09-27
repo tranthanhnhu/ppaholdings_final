@@ -153,8 +153,14 @@
     "headline1": "Gắn kết với Đông Nam Á.",
     "headline2": "Hướng đến thị trường toàn cầu.",
     "lead": "Khởi nguồn từ Đông Nam Á, PAA khai thác tiềm năng về nguồn lực, con người và năng lực sản xuất của khu vực để kết nối với những thị trường rộng lớn hơn.",
-    "pinCity": "VIÊNG CHĂN",
-    "pinLabel": "TRỤ SỞ CHÍNH"
+    "caption": "Gắn kết các nước trong khu vực, hướng ra những thị trường rộng hơn.",
+    "regions": {
+      "center": "Lào",
+      "north": "Myanmar",
+      "east": "Việt Nam",
+      "south": "Campuchia",
+      "west": "Thái Lan"
+    }
   },
   "responsible": {
     "eyebrow": "PHÁT TRIỂN BỀN VỮNG",
@@ -306,7 +312,7 @@
         },
         {
           "title": "Giai đoạn tăng trưởng và củng cố",
-          "body": ""
+          "body": "Củng cố năng lực vận hành và mở rộng nền tảng doanh nghiệp trong hệ sinh thái PAA."
         },
         {
           "title": "Nông nghiệp tuần hoàn",
@@ -1288,6 +1294,7 @@
             "PAA Agro",
             "Bolaven Cassava"
           ],
+          "note": "Vị trí của PAA Agro",
           "current": true
         },
         {
@@ -1317,7 +1324,7 @@
           "index": "05",
           "title": "THỊ TRƯỜNG",
           "companies": [
-            "—"
+            "Những thị trường rộng hơn"
           ]
         }
       ]

@@ -17,7 +17,7 @@ export async function Hero() {
       />
       <div className="absolute inset-0 bg-[rgba(9,23,37,0.55)]" />
       <div className="relative z-10 flex h-full flex-col">
-        <Header logoSize={50} />
+        <Header />
         <div className="mx-auto flex w-full flex-1 flex-col items-center justify-center gap-4 px-8 pb-12 text-center text-paa-inverse lg:px-24 xl:px-[120px]">
           <p className="text-[11px] font-medium leading-[14px] tracking-[1.4px] text-paa-accent">
             {t("eyebrow")}

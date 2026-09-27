@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import { TimelineGrid } from "@/components/WhoWeAre/TimelineGrid";
 
 export async function Timeline() {
   const t = await getTranslations("whoWeAre.timeline");
@@ -18,35 +18,7 @@ export async function Timeline() {
         <p className="text-[18px] leading-[30px] text-paa-text">{t("lead")}</p>
       </div>
 
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-14">
-        {items.map((item, i) => (
-          <article key={i} className="flex flex-col gap-4">
-            {item.year ? (
-              <p className="text-[56px] font-light leading-[64px] tracking-[-0.84px] text-paa-text">
-                {item.year}
-              </p>
-            ) : null}
-            <div className="flex w-full items-center">
-              <Image
-                src="/icons/timeline-dot.svg"
-                alt=""
-                width={8}
-                height={8}
-                className="shrink-0"
-              />
-              <div className="h-px flex-1 bg-paa-accent" />
-            </div>
-            <h3 className="text-[22px] font-medium leading-7 tracking-[-0.2px] text-paa-text">
-              {item.title}
-            </h3>
-            {item.body ? (
-              <p className="text-[16px] leading-[26px] text-paa-text">
-                {item.body}
-              </p>
-            ) : null}
-          </article>
-        ))}
-      </div>
+      <TimelineGrid items={items} />
     </section>
   );
 }

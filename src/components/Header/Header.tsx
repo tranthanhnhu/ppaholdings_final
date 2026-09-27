@@ -16,16 +16,18 @@ export const sectorNav = [
 ] as const;
 
 type HeaderProps = {
-  logoSize?: 40 | 50;
+  logoSize?: 40 | 50 | 56 | 64 | 72 | 80;
 };
 
 function navClass(active: boolean) {
-  return `font-medium text-[14px] leading-5 whitespace-nowrap transition-colors ${
-    active ? "text-paa-accent" : "text-paa-inverse hover:text-paa-accent/90"
+  return `relative font-medium text-[14px] leading-5 whitespace-nowrap transition-colors ${
+    active
+      ? "text-paa-inverse after:absolute after:inset-x-0 after:-bottom-1 after:h-0.5 after:bg-paa-accent"
+      : "text-paa-inverse/65 hover:text-paa-inverse"
   }`;
 }
 
-export function Header({ logoSize = 40 }: HeaderProps) {
+export function Header({ logoSize = 80 }: HeaderProps) {
   const t = useTranslations();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -35,7 +37,7 @@ export function Header({ logoSize = 40 }: HeaderProps) {
 
   return (
     <>
-      <header className="relative z-30 hidden min-h-[88px] w-full items-center justify-between px-8 py-5 lg:flex lg:px-24 xl:px-[120px]">
+      <header className="relative z-30 hidden min-h-[108px] w-full items-center justify-between px-8 py-5 lg:flex lg:px-24 xl:px-[120px]">
         <Link href="/" aria-label="PAA Empire Holdings home">
           <Logo size={logoSize} />
         </Link>
@@ -98,9 +100,9 @@ export function Header({ logoSize = 40 }: HeaderProps) {
         </nav>
       </header>
 
-      <header className="relative z-30 flex h-16 w-full items-center justify-between px-8 lg:hidden">
+      <header className="relative z-30 flex h-[80px] w-full items-center justify-between px-8 lg:hidden">
         <Link href="/" aria-label="PAA Empire Holdings home">
-          <Logo size={36} />
+          <Logo size={64} />
         </Link>
         <button
           type="button"
@@ -114,9 +116,9 @@ export function Header({ logoSize = 40 }: HeaderProps) {
 
       {open && (
         <div className="fixed inset-0 z-50 flex flex-col bg-paa-ink lg:hidden">
-          <div className="flex h-16 items-center justify-between px-8">
+          <div className="flex h-[80px] items-center justify-between px-8">
             <Link href="/" onClick={() => setOpen(false)}>
-              <Logo size={36} />
+              <Logo size={64} />
             </Link>
             <button
               type="button"

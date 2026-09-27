@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { PrinciplesList } from "@/components/WhoWeAre/PrinciplesList";
 
 export async function Principles() {
   const t = await getTranslations("whoWeAre.principles");
@@ -21,22 +22,7 @@ export async function Principles() {
         <p className="text-[18px] leading-[30px] text-paa-text">{t("lead")}</p>
       </div>
 
-      <div className="flex flex-col gap-8 lg:flex-row lg:gap-8">
-        {items.map((item) => (
-          <article key={item.index} className="flex flex-1 flex-col gap-3">
-            <p className="text-[11px] font-medium leading-[14px] tracking-[1.4px] text-paa-accent">
-              {item.index}
-            </p>
-            <h3 className="text-[22px] font-medium leading-7 tracking-[-0.2px] text-paa-text">
-              {item.title}
-            </h3>
-            <p className="text-[11px] font-medium leading-[14px] tracking-[1.4px] text-paa-muted">
-              {item.english}
-            </p>
-            <p className="text-[16px] leading-[26px] text-paa-text">{item.body}</p>
-          </article>
-        ))}
-      </div>
+      <PrinciplesList items={items} />
     </section>
   );
 }
