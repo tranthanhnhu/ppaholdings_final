@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { asset } from "@/lib/asset";
 
 export async function Philosophy() {
   const t = await getTranslations("investment.philosophy");
@@ -24,7 +25,7 @@ export async function Philosophy() {
           playsInline
           aria-hidden
         >
-          <source src="/animations/diagram.webm" type="video/webm" />
+          <source src={asset("/animations/diagram.webm")} type="video/webm" />
         </video>
       </div>
     </section>

@@ -14,3 +14,8 @@ if (existsSync(src)) {
   copyFileSync(src, dest);
   console.log("postbuild-static: copied public/.htaccess → out/.htaccess");
 }
+
+const assetVersion = process.env.NEXT_PUBLIC_ASSET_VERSION;
+if (assetVersion) {
+  console.log(`postbuild-static: asset version ${assetVersion}`);
+}

@@ -88,7 +88,9 @@ export function parseStatValue(raw: string): ParsedStat {
 
 function formatValue(n: number, parsed: ParsedStat): string {
   const fixed = parsed.decimals > 0 ? n.toFixed(parsed.decimals) : String(Math.round(n));
-  let [intPart, decPart] = fixed.split(".");
+  const parts = fixed.split(".");
+  let intPart = parts[0];
+  const decPart = parts[1];
   if (parsed.pad > 0) {
     intPart = intPart.padStart(parsed.pad, "0");
   }
