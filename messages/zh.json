@@ -380,7 +380,9 @@
       "circle3a": "PAA",
       "circle3b": "能力",
       "center1": "投资",
-      "center2": "机会"
+      "center2": "机会",
+      "outcome1": "长期",
+      "outcome2": "价值"
     },
     "framework": {
       "factors": [

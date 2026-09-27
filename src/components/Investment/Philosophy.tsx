@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { asset } from "@/lib/asset";
+import { PhilosophyDiagram } from "@/components/Investment/PhilosophyDiagram";
 
 export async function Philosophy() {
   const t = await getTranslations("investment.philosophy");
@@ -16,17 +16,19 @@ export async function Philosophy() {
         <p className="text-[18px] leading-[30px] text-paa-text">{t("lead")}</p>
       </div>
 
-      <div className="relative mx-auto w-full max-w-[520px] shrink-0 lg:mx-0">
-        <video
-          className="h-auto w-full"
-          autoPlay
-          loop
-          muted
-          playsInline
-          aria-hidden
-        >
-          <source src={asset("/animations/diagram.webm")} type="video/webm" />
-        </video>
+      <div className="mx-auto w-full max-w-[520px] shrink-0 lg:mx-0">
+        <PhilosophyDiagram
+          input1a={t("circle1a")}
+          input1b={t("circle1b")}
+          input2a={t("circle2a")}
+          input2b={t("circle2b")}
+          input3a={t("circle3a")}
+          input3b={t("circle3b")}
+          center1={t("center1")}
+          center2={t("center2")}
+          outcome1={t("outcome1")}
+          outcome2={t("outcome2")}
+        />
       </div>
     </section>
   );

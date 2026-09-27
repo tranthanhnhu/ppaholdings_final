@@ -1,7 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { Plus_Jakarta_Sans, Noto_Sans_SC, Noto_Sans_Lao, Cormorant_Garamond } from "next/font/google";
+import { Plus_Jakarta_Sans, Cormorant_Garamond } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { BackToTop } from "@/components/UI/BackToTop";
 import "../globals.css";
@@ -11,6 +11,7 @@ const plusJakarta = Plus_Jakarta_Sans({
   weight: ["300", "400", "500", "600"],
   variable: "--font-plus-jakarta",
   display: "swap",
+  fallback: ["system-ui", "Segoe UI", "Roboto", "sans-serif"],
 });
 
 const cormorant = Cormorant_Garamond({
@@ -18,20 +19,7 @@ const cormorant = Cormorant_Garamond({
   weight: ["300", "400"],
   variable: "--font-cormorant",
   display: "swap",
-});
-
-const notoSc = Noto_Sans_SC({
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  variable: "--font-noto-sc",
-  display: "swap",
-});
-
-const notoLao = Noto_Sans_Lao({
-  subsets: ["lao"],
-  weight: ["300", "400", "500"],
-  variable: "--font-noto-lao",
-  display: "swap",
+  fallback: ["Georgia", "Times New Roman", "serif"],
 });
 
 type Props = {
@@ -58,6 +46,12 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
+function localeBodyClass(locale: string) {
+  if (locale === "zh") return "font-zh";
+  if (locale === "lo") return "font-lo";
+  return "";
+}
+
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
@@ -68,14 +62,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html
-      lang={locale}
-      className={`${plusJakarta.variable} ${cormorant.variable} ${notoSc.variable} ${notoLao.variable}`}
-    >
+    <html lang={locale} className={`${plusJakarta.variable} ${cormorant.variable}`}>
       <body
-        className={`${plusJakarta.className} antialiased ${
-          locale === "zh" ? notoSc.className : ""
-        } ${locale === "lo" ? notoLao.className : ""}`}
+        className={`${plusJakarta.className} antialiased ${localeBodyClass(locale)}`}
       >
         <NextIntlClientProvider messages={messages}>
           {children}

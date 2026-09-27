@@ -380,7 +380,9 @@
       "circle3a": "PAA",
       "circle3b": "CAPABILITY",
       "center1": "INVESTMENT",
-      "center2": "OPPORTUNITY"
+      "center2": "OPPORTUNITY",
+      "outcome1": "LONG-TERM",
+      "outcome2": "VALUE"
     },
     "framework": {
       "factors": [
