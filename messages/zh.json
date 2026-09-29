@@ -159,7 +159,9 @@
       "north": "缅甸",
       "east": "越南",
       "south": "柬埔寨",
-      "west": "泰国"
+      "west": "泰国",
+      "hq": "总部",
+      "globalMarket": "全球市场"
     }
   },
   "responsible": {

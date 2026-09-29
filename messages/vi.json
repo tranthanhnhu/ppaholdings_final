@@ -159,7 +159,9 @@
       "north": "Myanmar",
       "east": "Việt Nam",
       "south": "Campuchia",
-      "west": "Thái Lan"
+      "west": "Thái Lan",
+      "hq": "Trụ sở",
+      "globalMarket": "Thị trường toàn cầu"
     }
   },
   "responsible": {

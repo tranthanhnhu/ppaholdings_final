@@ -159,7 +159,9 @@
       "north": "Myanmar",
       "east": "Vietnam",
       "south": "Cambodia",
-      "west": "Thailand"
+      "west": "Thailand",
+      "hq": "HQ",
+      "globalMarket": "Global market"
     }
   },
   "responsible": {
