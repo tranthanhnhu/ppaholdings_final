@@ -27,7 +27,7 @@
   --color-paa-inverse: var(--paa-color-text-inverse);
   --color-paa-accent: var(--paa-color-accent);
   --color-paa-ink: var(--paa-color-ink);
-  --font-sans: var(--font-plus-jakarta);
+  --font-sans: var(--font-be-vietnam);
   --font-serif: var(--font-cormorant);
 }
 
@@ -38,18 +38,18 @@ html {
 body {
   background: var(--paa-color-bg);
   color: var(--paa-color-text);
-  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+  font-family: var(--font-be-vietnam), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 /* System stacks — avoid Google Fonts timeout for large CJK/Lao files */
 body.font-zh {
-  font-family: var(--font-plus-jakarta), "PingFang SC", "Hiragino Sans GB",
+  font-family: var(--font-be-vietnam), "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", sans-serif;
 }
 
 body.font-lo {
-  font-family: var(--font-plus-jakarta), "Noto Sans Lao", "Lao Sangam MN",
+  font-family: var(--font-be-vietnam), "Noto Sans Lao", "Lao Sangam MN",
     "Saysettha OT", "Phetsarath OT", sans-serif;
 }
 

@@ -24,7 +24,7 @@ export default function RootPage() {
         background: "#f7f6f2",
         color: "#091725",
         fontFamily:
-          "var(--font-plus-jakarta), system-ui, -apple-system, sans-serif",
+          "var(--font-be-vietnam), system-ui, -apple-system, sans-serif",
       }}
     >
       <p>

@@ -1,15 +1,15 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { Plus_Jakarta_Sans, Cormorant_Garamond } from "next/font/google";
+import { Be_Vietnam_Pro, Cormorant_Garamond } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { BackToTop } from "@/components/UI/BackToTop";
 import "../globals.css";
 
-const plusJakarta = Plus_Jakarta_Sans({
+const beVietnam = Be_Vietnam_Pro({
   subsets: ["latin", "latin-ext", "vietnamese"],
   weight: ["300", "400", "500", "600"],
-  variable: "--font-plus-jakarta",
+  variable: "--font-be-vietnam",
   display: "swap",
   fallback: ["system-ui", "Segoe UI", "Roboto", "sans-serif"],
 });
@@ -62,9 +62,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${plusJakarta.variable} ${cormorant.variable}`}>
+    <html lang={locale} className={`${beVietnam.variable} ${cormorant.variable}`}>
       <body
-        className={`${plusJakarta.className} antialiased ${localeBodyClass(locale)}`}
+        className={`${beVietnam.className} antialiased ${localeBodyClass(locale)}`}
       >
         <NextIntlClientProvider messages={messages}>
           {children}
